@@ -1,8 +1,8 @@
 # pr-api 
-## An application to test PR activity over the last 7 days.   This application could use some security modifications but at this time, it is setup to just simply print to STDOUT
+An application to test PR activity over the last 7 days.   This application could use some security modifications but at this time, it is setup to just simply print to STDOUT
 
 ## Running
-# Simply clone the repo, build the docker image and run the container.   It should be very straight forward.   Once I am inside of a fw with a trusted smtp server I can get the email functionality working!
+Simply clone the repo, build the docker image and run the container.   It should be very straight forward.   Once I am inside of a fw with a trusted smtp server I can get the email functionality working!
 
 ## Testing
 I tested this application with a slower and busier repo with and without pagination and got it working. 
