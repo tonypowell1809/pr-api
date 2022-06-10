@@ -26,11 +26,11 @@ def get_api_data():
   #we can check the next page for more information
   while (size == 100 or  num == 1): 
     params = {
-      "is" : "pr",
+      "is"       : "pr",
       "per_page" : 100,
-      "state" : "all",
-      "since" : week_ago,
-      "page" : num
+      "state"    : "all",
+      "since"    : week_ago,
+      "page"     : num
     }
     #this call is basically getting the data back from the api
     data = requests.get(query_url, params=params)
